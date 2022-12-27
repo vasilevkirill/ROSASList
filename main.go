@@ -26,7 +26,7 @@ type Opts struct {
 	Verbose   bool   `long:"verbose" description:"Show verbose debug information"`
 	Cachettl  int    `logn:"cachettl" description:"Time To live cache for ASN" default:"86400"`
 	Cachepath string `long:"cachepath" description:"Path to save cache" default:"./tmp"`
-	Author    bool   `long:"author" description:"Vasilev Kirill\nhttps://mikrotik.me"`
+	Author    bool   `long:"author" description:"Vasilev Kirill\nhttps://vasilevkirill.ru"`
 }
 
 var options Opts
